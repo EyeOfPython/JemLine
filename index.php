@@ -1,2 +1,13 @@
-<h1>Jem Line, yo ho!</h1>
-<h1>Test!</h1>
+<?php
+include 'config.php';
+?>
+<html>
+<head>
+
+</head>
+<body>
+
+<h1><?php echo $company_name; ?></h1>
+
+</body>
+</html>
