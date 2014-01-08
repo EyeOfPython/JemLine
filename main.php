@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>JemLine</title>
 <link rel="stylesheet" type="text/css" href="assets/main.css" />
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet"> 
+<script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js"></script> 
 </head>
 
 <body>
@@ -16,11 +19,22 @@
 	<li><a href="#"><span>S</span>ALES</a></li>
 	<li><a href="#"><span>H</span>ISTORY</a></li>
 	</ul>
+	<div class="search">
+	<form>
+	<input type="text" size="40"/>
+	</form>
+	</div>
 	<!-- end .header --></div>
   <div class="content" style="clear: both;">
-    <h1>Instructions</h1>
-    <p>Be aware that the CSS for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fixed layouts. You can remove these comments before you launch your site. To learn more about the techniques used in these CSS Layouts, read this article at Adobe's Developer Center - <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
-    <h2>Layout</h2>
+    <div class="fotorama slideshow" data-width="980" 
+									data-autoplay="true"
+									data-loop="true"
+									data-stopautoplayontouch="true"
+									data-transition="crossfade">
+		<img src="assets/background1.jpg"/>
+		<img src="assets/Logo_small.png"/>
+	</div>
+	<h2>Layout</h2>
     <p>Since this is a one-column layout, the .content is not floated. </p>
     <h3>Logo Replacement</h3>
     <p>An image placeholder was used in this layout in the .header where you'll likely want to place  a logo. It is recommended that you remove the placeholder and replace it with your own linked logo. </p>
