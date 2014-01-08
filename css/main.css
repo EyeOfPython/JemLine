@@ -1,9 +1,3 @@
-@font-face
-{
-	font-family: bodoni;
-	src: url(fonts/bodoni.ttf);
-}
-
 body {
 	font-family: bodoni;
 	background-color: #42413C;

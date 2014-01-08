@@ -2,14 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>JemLine</title>
 <link rel="stylesheet" type="text/css" href="css/main.css" />
+<style>
+@font-face
+{
+	font-family: bodoni;
+	src: url(fonts/bodoni.ttf);
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+  <div class="header"><a href="#"><img src="images/logo_small.jpg" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
     <!-- end .header --></div>
   <div class="content">
     <h1>Instructions</h1>
