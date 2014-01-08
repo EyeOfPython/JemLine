@@ -13,9 +13,9 @@
 
 <div class="container">
   <div class="header">
-	<a href="main.php"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
+	<a href="#"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
 	<ul class="tabs">
-	<li><a href="categories.php"><span>C</span>ATEGORIES</a></li>
+	<li><a href="#"><span>C</span>ATEGORIES</a></li>
 	<li><a href="#"><span>S</span>ALES</a></li>
 	<li><a href="#"><span>H</span>ISTORY</a></li>
 	</ul>
@@ -34,8 +34,11 @@
 									data-loop="true"
 									data-stopautoplayontouch="true"
 									data-transition="crossfade">
-		<img src="assets/background1.jpg"/>
-		<img src="assets/Logo_small.png"/>
+		<img src="assets/slide1.jpg"/>
+		<img src="assets/slide2.jpg"/>
+		<img src="assets/slide3.jpg"/>
+		<img src="assets/slide4.jpg"/>
+		<img src="assets/slide5.jpg"/>
 	</div>
 	<h2>Layout</h2>
     <p>Since this is a one-column layout, the .content is not floated. </p>

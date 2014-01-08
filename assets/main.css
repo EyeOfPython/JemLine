@@ -121,7 +121,7 @@ ul.tabs li
 	text-shadow: #444 0px 0px 1px;
 }
 
-ul.tabs li a:hover
+ul.tabs li:hover a
 {
 	color: #228;
 	text-shadow: #334 0px 0px 3px;
@@ -192,21 +192,8 @@ ul.tabs li span
 	padding-right: 5px;
 }
 
-<<<<<<< HEAD
 .slideshow
 {
 	margin-top: 23px;
 	margin-left: 15px;
 }
-=======
-.categories{
-	margin-left: 30px;
-	
-	
-}
-
-ol.categories li{
-	
-	background-color: #BBF;
-}
->>>>>>> 80e95b4ad58d23139fb2edea0f2a0f4bc3674393
