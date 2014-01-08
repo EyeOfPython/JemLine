@@ -1,7 +1,13 @@
+@font-face
+{
+	font-family: bodoni;
+	src: url(bodoni.ttf);
+}
+
 body {
 	font-family: bodoni;
 	background-color: #42413C;
-	background-image: url(../images/background1.jpg) ;
+	background: fixed url(background1.jpg);
 	margin: 0;
 	padding: 0;
 	color: #000;

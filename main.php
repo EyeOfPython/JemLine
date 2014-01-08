@@ -3,14 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>JemLine</title>
-<link rel="stylesheet" type="text/css" href="css/main.css" />
-<style>
-@font-face
-{
-	font-family: bodoni;
-	src: url(fonts/bodoni.ttf);
-}
-</style>
+<link rel="stylesheet" type="text/css" href="assets/main.css" />
 </head>
 
 <body>
