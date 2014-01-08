@@ -1,6 +1,7 @@
 body {
 	font-family: bodoni;
 	background-color: #42413C;
+	background-image: url(../images/background1.jpg) ;
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -41,6 +42,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
+	margin-top: 15px;
 	background-color: #ADB96E;
 }
 
@@ -57,6 +59,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* ~~ The footer ~~ */
 .footer {
+	margin-bottom: 15px;
 	padding: 10px 0;
 	background-color: #CCC49F;
 }
