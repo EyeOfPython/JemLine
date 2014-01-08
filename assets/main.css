@@ -129,12 +129,18 @@ ul.tabs li span
 }
 
 .categories{
-	margin-left: 30px;
+	margin-left: 45px;
 	
 	
 }
 
-ol.categories li{
-	
+table.categories td{
+	width: 250px;
+	height: 200px;
+	list-style-type: none;
 	background-color: #BBF;
+	border:none;
+	border-radius: 5px;
 }
+
+
