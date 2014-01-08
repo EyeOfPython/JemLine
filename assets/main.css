@@ -127,3 +127,14 @@ ul.tabs li span
 	padding-left: 6px;
 	padding-right: 5px;
 }
+
+.categories{
+	margin-left: 30px;
+	
+	
+}
+
+ol.categories li{
+	
+	background-color: #BBF;
+}

@@ -10,9 +10,9 @@
 
 <div class="container">
   <div class="header">
-	<a href="#"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
+	<a href="main.php"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
 	<ul class="tabs">
-	<li><a href="#"><span>C</span>ATEGORIES</a></li>
+	<li><a href="categories.php"><span>C</span>ATEGORIES</a></li>
 	<li><a href="#"><span>S</span>ALES</a></li>
 	<li><a href="#"><span>H</span>ISTORY</a></li>
 	</ul>
