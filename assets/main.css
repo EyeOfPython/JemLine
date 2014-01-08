@@ -49,7 +49,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
 	margin-top: 15px;
-	background-color: #99F;
+	background-color: #922;
 	padding-bottom: 0px;
 	clear: both;
 	height: 90px;
@@ -63,14 +63,15 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .content {
 	clear: both;
-	padding: 15px 6px;
+	padding: 0px 6px;
 }
 
 /* ~~ The footer ~~ */
 .footer {
 	margin-bottom: 15px;
 	padding: 10px 0;
-	background-color: #CCC49F;
+	background-color: #922;
+	color: white;
 }
 
 /* ~~ miscellaneous float/clear classes ~~ */
@@ -92,7 +93,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 ul.tabs
 {
 	float: left;
-	margin-top: 47px;
+	margin-left: 4px;
+	margin-top: 42px;
 	display: inline;
 }
 
@@ -111,7 +113,10 @@ ul.tabs li
 	margin-bottom: 0px;
 	margin-left: 1px;
 	margin-right: 3px;
-	background-color: #BBF;
+	background-color: #FFF;
+	
+	border: #BBB 1px solid;
+	border-radius: 3px;
 	
 	text-shadow: #444 0px 0px 1px;
 }
@@ -120,6 +125,11 @@ ul.tabs li a:hover
 {
 	color: #228;
 	text-shadow: #334 0px 0px 3px;
+}
+
+ul.tabs li:hover
+{
+	background-color: #EEE;
 }
 
 ul.tabs li span
@@ -135,8 +145,8 @@ ul.tabs li span
 .search
 {
 	float: right;
-	margin-right: 20px;
-	margin-top: 50px;
+	margin-right: 0px;
+	margin-top: 48px;
 }
 
 .search input
@@ -157,6 +167,22 @@ ul.tabs li span
 	box-shadow: #444 0px 0px 6px;
 }
 
+.cart
+{
+	float: right;
+	padding: 5px;
+	background-color: #FFF;
+	border: #666 1px solid;
+	border-radius: 4px;
+	
+	margin: 36px 10px 0px 10px; 
+}
+
+.cart:hover
+{
+	background-color: #EEE;
+}
+
 .logo
 {
 	float: left;
@@ -168,5 +194,6 @@ ul.tabs li span
 
 .slideshow
 {
+	margin-top: 23px;
 	margin-left: 15px;
 }

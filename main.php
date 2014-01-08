@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>JemLine</title>
 <link rel="stylesheet" type="text/css" href="assets/main.css" />
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<link  href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" rel="stylesheet"> 
-<script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js"></script> 
+<script src="js/jquery-1.10.2.min.js"></script>
+<link  href="assets/fotorama.css" rel="stylesheet"> 
+<script src="js/fotorama.js"></script>
 </head>
 
 <body>
@@ -19,6 +19,9 @@
 	<li><a href="#"><span>S</span>ALES</a></li>
 	<li><a href="#"><span>H</span>ISTORY</a></li>
 	</ul>
+	<div class="cart">
+	<img src="assets/shoppingcart.png" width="30" height="30" />
+	</div>
 	<div class="search">
 	<form>
 	<input type="text" size="40"/>
