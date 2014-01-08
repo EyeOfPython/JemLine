@@ -91,16 +91,39 @@ ul.tabs
 	display: inline;
 }
 
+ul.tabs li a
+{
+	color: black;
+	text-decoration: none;
+}
+
 ul.tabs li
 {
 	list-style-type: none;
 	display: inline;
-	padding: 6px;
+	padding: 7px 12px;
 	margin-bottom: 0px;
+	margin-right: 3px;
 	background-color: #BBF;
+	
+	text-shadow: #444 0px 0px 1px;
+}
+
+ul.tabs li a:hover
+{
+	color: #228;
+	text-shadow: #334 0px 0px 3px;
 }
 
 ul.tabs li span
 {
 	font-size: 140%;
+}
+
+.logo
+{
+	display:inline;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 5px;
 }

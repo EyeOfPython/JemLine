@@ -10,11 +10,11 @@
 
 <div class="container">
   <div class="header">
-	<a href="#"><img src="assets/logo_small.png" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:inline;" /></a> 
+	<a href="#"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
 	<ul class="tabs">
-	<li><span>C</span>ATEGORIES</li>
-	<li><span>S</span>ALES</li>
-	<li><span>H</span>ISTORY</li>
+	<li><a href="#"><span>C</span>ATEGORIES</a></li>
+	<li><a href="#"><span>S</span>ALES</a></li>
+	<li><a href="#"><span>H</span>ISTORY</a></li>
 	</ul>
 	<!-- end .header --></div>
   <div class="content" style="clear: both;">
