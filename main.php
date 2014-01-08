@@ -9,9 +9,15 @@
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="images/logo_small.jpg" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
-    <!-- end .header --></div>
-  <div class="content">
+  <div class="header">
+	<a href="#"><img src="assets/logo_small.png" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" style="background-color: #C6D580; display:inline;" /></a> 
+	<ul class="tabs">
+	<li><span>C</span>ATEGORIES</li>
+	<li><span>S</span>ALES</li>
+	<li><span>H</span>ISTORY</li>
+	</ul>
+	<!-- end .header --></div>
+  <div class="content" style="clear: both;">
     <h1>Instructions</h1>
     <p>Be aware that the CSS for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fixed layouts. You can remove these comments before you launch your site. To learn more about the techniques used in these CSS Layouts, read this article at Adobe's Developer Center - <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
     <h2>Layout</h2>
