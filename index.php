@@ -35,6 +35,7 @@ switch($page)
 {
 	case 'main': 		include 'main.php'; break;
 	case 'categories':  include 'categories.php'; break;
+	case 'product'; 	include 'product.php'; break;
 }
 ?>
 	<!-- end .content --></div>

@@ -72,6 +72,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding: 10px 0;
 	background-color: #922;
 	color: white;
+	clear: both;
 }
 
 /* ~~ miscellaneous float/clear classes ~~ */
@@ -211,21 +212,35 @@ table.categories td{
 	border-radius: 2px;
 }
 
-.ring1{
+.product{
 	padding: 40px;
+	clear: both;
 }
 
-.ring1 p{
+.product img {
+	float: left;
+	margin-right: 30px;
+}
+
+.product h2{
 	font-size: 16pt;
-	float: right;
-	margin: 14px 190px 22px 0px;
-	
+	margin: 14px;
 }
 
-.ring1 ul{
-	color: #555;
-	float: right;
-	margin: -240px 350px 22px 0px;
+.product .description
+{
+}
+
+.product .price
+ {
+}
+
+.product ul{
+	color: #333;
+	padding-left: 20px;
+}
+.product li {
+	margin-left: 20px;
 }
 
 
