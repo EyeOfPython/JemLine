@@ -1,30 +1,35 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>JemLine</title>
 <link rel="stylesheet" type="text/css" href="assets/main.css" />
-<script src="js/jquery-1.10.2.min.js"></script>
-<link  href="assets/fotorama.css" rel="stylesheet"> 
-<script src="js/fotorama.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<link  type="text/css" href="assets/fotorama.css" rel="stylesheet" /> 
+<script type="text/javascript" src="js/fotorama.js"></script>
 </head>
 
 <body>
-
 <div class="container">
   <div class="header">
-	<a href="?"><img src="assets/logo_small.png" class="logo" alt="Insert Logo Here" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
+	<a href="?"><img src="assets/logo_small.png" class="logo" alt="JemLine" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
 	<ul class="tabs">
 	<li><a href="?page=categories"><span>C</span>ATEGORIES</a></li>
 	<li><a href="#"><span>S</span>ALES</a></li>
 	<li><a href="?page=history"><span>H</span>ISTORY</a></li>
 	</ul>
 	<div class="cart">
-	<img src="assets/shoppingcart.png" width="30" height="30" />
+	<a href="?page=cart">
+	<img src="assets/shoppingcart.png" width="30" height="30" alt="cart" />
+	</a>
 	</div>
 	<div class="search">
-	<form>
-	<input type="text" size="40"/>
+	<form action="?">
+	<input type="hidden" name="page" value="search" />
+	<input type="text" name="query" size="40"/>
 	</form>
 	</div>
 	<!-- end .header --></div>
@@ -38,6 +43,9 @@ switch($page)
 	case 'category':	include 'category.php'; break;
 	case 'product': 	include 'product.php'; break;
 	case 'history':		include 'history.php' ; break;
+	case 'cart':		include 'cart.php'; break;
+	case 'search':		include 'search.php'; break;
+	case 'contact'; 	include 'contact.php'; break;
 }
 ?>
 	<!-- end .content --></div>
@@ -45,7 +53,7 @@ switch($page)
     <ul class="footer_content">
     	<li><a href="#">Terms</a></li>
         <li><a href="#">Copyright</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="?page=contact">Contact</a></li>
         <li><a href="#">Language</a></li>     
     </ul>
     <!-- end .footer --></div>

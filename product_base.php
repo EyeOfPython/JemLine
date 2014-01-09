@@ -7,11 +7,18 @@ function echo_product($product, $small)
 	echo '<div class="product-overview">';
 	if(!$small)
 		echo '<h1>'.nl2br($product->title).'</h1>';
-	echo '<img src="assets/'.$product->image.'" width="'.($small?200:320).'"/>';
+	echo '<img src="assets/'.$product->image.'" alt="'.$product->title.'" width="'.($small?200:320).'"/>';
 
 	if($small)
-		echo '<h2><a href="?page=product&id='.$product['id'].'">'.$product->title.'</a></h2>';
+		echo '<h2><a href="?page=product&amp;id='.$product['id'].'">'.$product->title.'</a></h2>';
 	echo '<div class="price">'.number_format($product->price*1, 2).' &pound;</div>';
+	if(!$small)
+	{
+		echo '<form method="post" action="?page=cart">';
+		echo '<input type="submit" class="add-to-cart" value="Add to cart" />';
+		echo '<input type="hidden" name="add-product-id" value="'.$product['id'].'" />';
+		echo '</form>';
+	}
 	echo '<div class="properties">';
 	echo '<ul>';
 	$k = 0;

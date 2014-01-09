@@ -11,6 +11,7 @@ foreach($products as $product)
 {
 	if($product['id'] == $_GET['id'])
 	{
+		echo '<p><a href="?page=categories">Categories</a> / <a href="?page=category&amp;category='.$product['category'].'">'.$product['category'].'</a></p>';
 		echo '<div class="product-details">';
 		echo_product($product, false);
 		echo '</div>';

@@ -21,13 +21,13 @@ foreach($products as $product)
 foreach($categories as $category_name => $sample_product)
 {
 	echo '<div class="category">';
-	echo '<a href="?page=category&category='.$category_name.'">';
-	echo '<div class="image-bounds">';
+	echo '<a href="index.php?page=category&amp;category='.$category_name.'">';
+	echo '<span class="image-bounds">';
 	if($sample_product)
 	{
-		echo '<img src="assets/'.$sample_product->image.'"/> ';
+		echo '<img src="assets/'.$sample_product->image.'" alt="'.$category_name.'"/> ';
 	}
-	echo '</div>';
+	echo '</span>';
 	echo $category_name;
 	echo '</a>';
 	echo '</div>';
