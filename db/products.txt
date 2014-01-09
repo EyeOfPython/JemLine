@@ -1,1 +1,19 @@
-Rings;3/4 ct. Princess Cut Diamond Solitaire Engagement Ring in 18k White Gold;999;ringa.jpg;Beatiful ring and shit...;18k White Gold,Conflict Free diamonds,100% natural diamonds
+<products>
+
+<product category="Rings">
+<title>3/4 ct. Princess Cut Diamond Solitaire Engagement Ring in 18k White Gold</title>
+<price>999</price>
+<image>ringa.jpg</image>
+<description>Beatiful ring and shit...
+<b>Bold text</b>
+</dectiption>
+<properties>
+<property>18k White Gold</property>
+<property>Conflict Free diamonds</property>
+<property>100% natural diamonds</property>
+</product>
+
+....
+
+</products>
+
