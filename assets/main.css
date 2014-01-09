@@ -199,17 +199,42 @@ ul.tabs li span
 	margin-left: 15px;
 }
 
-.categories{
+.categories {
 	margin-left: 45px;
+	margin-top: 20px;
+	text-align: center;
 }
 
-table.categories td{
-	width: 250px;
-	height: 200px;
-	list-style-type: none;
-	background-color: #BBB;
-	border:none;
+.categories div.category {
+	width: 200px;
+	height: 150px;
+	background-color: #FFF;
+	border: #BBB 1px solid;
 	border-radius: 2px;
+	margin: 15px;
+	padding: 15px;
+	float: left;
+}
+
+.categories div .image-bounds
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 130px;
+	height: 125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.categories div img
+{
+	width: 130px;
+}
+
+.categories a
+{
+	text-decoration: none;
 }
 
 .product{
@@ -243,4 +268,23 @@ table.categories td{
 	margin-left: 20px;
 }
 
+.category-list
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
 
+.category-list .product
+{
+	border-bottom: #EEE 1px solid;
+	padding-bottom: 15px;
+}
+
+.category-list .price
+{
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+	
+	font-size: 30px;
+}
