@@ -15,7 +15,7 @@ foreach($products as $product)
 	}
 }
 ?>
-
+<h1>Category List</h1>
 <div class="categories">
 <?php
 foreach($categories as $category_name => $sample_product)

@@ -17,7 +17,7 @@
 	<ul class="tabs">
 	<li><a href="?page=categories"><span>C</span>ATEGORIES</a></li>
 	<li><a href="#"><span>S</span>ALES</a></li>
-	<li><a href="#"><span>H</span>ISTORY</a></li>
+	<li><a href="?page=history"><span>H</span>ISTORY</a></li>
 	</ul>
 	<div class="cart">
 	<img src="assets/shoppingcart.png" width="30" height="30" />
@@ -37,11 +37,17 @@ switch($page)
 	case 'categories':  include 'categories.php'; break;
 	case 'category':	include 'category.php'; break;
 	case 'product': 	include 'product.php'; break;
+	case 'history':		include 'history.php' ; break;
 }
 ?>
 	<!-- end .content --></div>
   <div class="footer">
-    <p>Footer</p>
+    <ul class="footer_content">
+    	<li><a href="#">Terms</a></li>
+        <li><a href="#">Copyright</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Language</a></li>     
+    </ul>
     <!-- end .footer --></div>
   <!-- end .container --></div>
 </body>

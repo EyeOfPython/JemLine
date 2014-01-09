@@ -32,7 +32,7 @@ a:link {
 	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #42413C;
+	color: #6E6C64;
 	text-decoration: underline;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
@@ -63,7 +63,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .content {
 	clear: both;
-	padding: 20px 6px;
+	padding: 0px 6px;
 }
 
 /* ~~ The footer ~~ */
@@ -72,7 +72,6 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	padding: 10px 0;
 	background-color: #922;
 	color: white;
-	clear: both;
 }
 
 /* ~~ miscellaneous float/clear classes ~~ */
@@ -122,7 +121,7 @@ ul.tabs li
 	text-shadow: #444 0px 0px 1px;
 }
 
-ul.tabs li:hover a
+ul.tabs li a:hover
 {
 	color: #228;
 	text-shadow: #334 0px 0px 3px;
@@ -197,144 +196,4 @@ ul.tabs li span
 {
 	margin-top: 23px;
 	margin-left: 15px;
-}
-
-.categories {
-	margin: 20px 0 20px 45px;
-	padding-bottom: 20px;
-	text-align: center;
-}
-
-.categories div.category {
-	width: 200px;
-	height: 150px;
-	background-color: #FFF;
-	border: #BBB 1px solid;
-	border-radius: 2px;
-	margin: 15px;
-	padding: 15px;
-	float: left;
-}
-
-.categories div .image-bounds
-{
-	display: block;
-	padding: 0;
-	margin: 0;
-	width: 130px;
-	height: 125px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.categories div img
-{
-	width: 130px;
-}
-
-.categories a
-{
-	text-decoration: none;
-}
-
-.product{
-	padding: 40px 60px 40px 60px;
-	clear: both;
-}
-
-.product img {
-	float: left;
-	margin: 0 80px 30px 0;
-}
-
-.product h1
-{
-	font-size: 21pt;
-}
-
-.product h2
-{
-	font-size: 16pt;
-}
-
-.product h3 
-{
-	padding: 0;
-}
-
-.product .description
-{
-	margin: 20px 30px 5px 10px;
-	padding: 15px 20px 20px 20px;
-	
-	clear: both;
-	font-size: 13pt;
-	
-	border: #BBB 1px solid;
-	border-radius: 8px 0 8px 0;
-}
-
-.product .price
- {
- 	float: right;
-	margin-top: 100px;
-	margin-right: 40px;
-	
-	font-size: 30px;
-}
-
-.product ul{
-	margin-top: 30px;
-	color: #333;
-}
-
-.product li {
-	font-size: 13pt;
-	margin-left: 20px;
-}
-
-.category-list
-{
-	margin-bottom: 30px;
-}
-
-.category-list .product
-{
-	border-bottom: #EEE 2px solid;
-	padding-bottom: 50px;
-}
-
-.category-list img
-{
-	margin-right: 50px;
-}
-
-.category-list .price
-{
-	margin-top: 40px;
-}
-
-.category-list a
-{
-	text-decoration: none;
-}
-
-ul.footer_content{ 
-    margin-left: 350px; 
-}  
-
-ul.footer_content li { 
-    list-style-type: none; 
-	padding: 0 10px 0 5px;
-    display: inline; 
-} 
-
-ul.footer_content li a{ 
-    color: #DDD; 
-	text-decoration: none;
-}
-
-ul.footer_content li a:hover
-{
-	text-decoration: underline;
 }
