@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acces db files"
+AuthUserFile /xampp/htdocs/jemline/Jemline/db/.htpasswd
+require valid-user

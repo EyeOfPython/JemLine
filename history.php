@@ -9,6 +9,6 @@
         <li>average weekly sales were 100 products</li>
         <li>by now there are 8 different shops located around the Midlands</li>
     </ul>
-    <hr>
-    <img src="assets/logo_small.png" class = "largeLogo"/>
+    <hr/>
+    <img src="assets/logo_small.png" class = "largeLogo" alt="JemLine"/>
 </div> 

@@ -11,7 +11,7 @@ function echo_product($product, $small)
 
 	if($small)
 		echo '<h2><a href="?page=product&amp;id='.$product['id'].'">'.$product->title.'</a></h2>';
-	echo '<div class="price">'.number_format($product->price*1, 2).' &pound;</div>';
+	echo '<div class="price">'.number_format($product->price*1, 2).' &pound;<br/><small>Stock: '.$product->stock.'</small></div>';
 	if(!$small)
 	{
 		echo '<form method="post" action="?page=cart">';

@@ -18,7 +18,7 @@ session_start();
 	<a href="?"><img src="assets/logo_small.png" class="logo" alt="JemLine" name="Insert_logo" width="180" height="90" id="Insert_logo" /></a> 
 	<ul class="tabs">
 	<li><a href="?page=categories"><span>C</span>ATEGORIES</a></li>
-	<li><a href="#"><span>S</span>ALES</a></li>
+	<li><a href="?page=sales"><span>S</span>ALES</a></li>
 	<li><a href="?page=history"><span>H</span>ISTORY</a></li>
 	</ul>
 	<div class="cart">
@@ -45,14 +45,18 @@ switch($page)
 	case 'history':		include 'history.php' ; break;
 	case 'cart':		include 'cart.php'; break;
 	case 'search':		include 'search.php'; break;
-	case 'contact'; 	include 'contact.php'; break;
+	case 'contact': 	include 'contact.php'; break;
+	case 'checkout':	include 'checkout.php'; break;
+	case 'terms':		include 'terms.php'; break;
+	case 'sales':		include 'sales.php'; break;
+	case 'copyright':	include 'copyright.php'; break;
 }
 ?>
 	<!-- end .content --></div>
   <div class="footer">
     <ul class="footer_content">
-    	<li><a href="#">Terms</a></li>
-        <li><a href="#">Copyright</a></li>
+    	<li><a href="?page=terms">Terms</a></li>
+        <li><a href="?page=copyright">Copyright</a></li>
         <li><a href="?page=contact">Contact</a></li>
         <li><a href="#">Language</a></li>     
     </ul>

@@ -1,9 +1,11 @@
+<?xml version="1.0"?>
 <products>
 
-<product id = "1" category="Rings">
+<product id="1" category="Rings">
 <title>3/4 ct. Princess Cut Diamond Solitaire Engagement Ring in 18k White Gold</title>
 <price>999</price>
 <image>ring1.jpg</image>
+<stock>98</stock>
 <description>Meticulously crafted in 750 Gold, this exclusive design by NATURAL DIAMOND is available to you directly from the source. The 'Matthiola' design is set with 47 diamonds, weighing 2.22 ctw. Featuring a sparkly 1.57ct center stone, graded F / VS1 natural diamond this beautiful piece is available in 14K gold, 18K gold or platinum.
 
 Read below to learn about the quality of the main diamond:
@@ -28,10 +30,11 @@ EGL certificates are recognized around the globe for their accuracy and integrit
 </properties>
 </product>
 
-<product id = "2" category="Necklaces">
+<product id="2" category="Necklaces">
 <title>14K Gold 12-15mm Australian South Sea White Pearl Necklace - AAA Quality, 51cm Length </title>
 <price>99999</price>
 <image>necklace1.jpg</image>
+<stock>89</stock>
 <description>Meticulously crafted in 750 Gold, this exclusive design by NATURAL DIAMOND is available to you directly from the source. The 'Matthiola' design is set with 47 diamonds, weighing 2.22 ctw. Featuring a sparkly 1.57ct center stone, graded F / VS1 natural diamond this beautiful piece is available in 14K gold, 18K gold or platinum.
 
 Read below to learn about the quality of the main diamond:
@@ -56,10 +59,11 @@ EGL certificates are recognized around the globe for their accuracy and integrit
 </properties>
 </product>
 
-<product id = "3" category="Rings">
+<product id="3" category="Rings">
 <title>18ct White Gold 1 Carat Certified G/VS Round Brilliant Diamond Engagement Ring - Size K</title>
 <price>99999</price>
 <image>ring2.jpg</image>
+<stock>100</stock>
 <description>Perfect for the woman who wants a classic style with a twist, this solitaire diamond ring offers a striking and pretty variation on a simple four-claw style.
 
 A wonderful choice to mark an engagement, this style is classic enough to be beautiful forever but will delight the recipient with its pretty design details. It will also sit seamlessly with a straight wedding band.
@@ -73,10 +77,11 @@ A wonderful choice to mark an engagement, this style is classic enough to be bea
 </properties>
 </product> 
 
-<product id = "4" category="Bracelets">
+<product id="4" category="Bracelets">
 <title>Modern 9 ct Gold Bracelet - 20cm*3mm, 13 Grams</title>
 <price>99999</price>
 <image>bracelet1.jpg</image>
+<stock>100</stock>
 <description>Beautiful 9ct and 18ct Gold in Fine designs. Take a look at our rings, pendants and earring sets, all in a variety of colours and shapes with solitaires and clusters, diamonds and gemstones. Hallmarked in the UK and hand polished for the ultimate comfort and finesse. 
 <b>Bold text</b>
 </description>
@@ -87,10 +92,11 @@ A wonderful choice to mark an engagement, this style is classic enough to be bea
 </properties>
 </product> 
 
-<product id = "5" category="Bracelets">
+<product id="5" category="Bracelets">
 <title>Vs 2.00Ct Round Diamond Solitaire Pendant 14K Gold</title>
 <price>99999</price>
 <image>necklace2.jpg</image>
+<stock>100</stock>
 <description>Also available in 18k white, yellow or rose gold. A great value and a pendant she will cherish for the rest of her life. This excellent quality pendant containins a round-cut solitaire VS diamond in a bezel setting made of solid 14k gold. Our master goldsmiths fabricate this item to our specifications, and then choose a natural bright white diamond, of high colour and clarity to finish this magnificent piece. Capture her heart as the diamond captures the light and shows its fiery brilliance. When you buy from LureDiamonds you are joining the thousands of worldwide customers who no longer pay too much for their fine jewellery needs. A chain is also available, as well as your choice of gold colour and upgrades all the way to platinum! 
 <b>Bold text</b>
 </description>
@@ -101,10 +107,11 @@ A wonderful choice to mark an engagement, this style is classic enough to be bea
 </properties>
 </product> 
  
-<product id = "6" category="Earrings">
+<product id="6" category="Earrings">
 <title>Round Cut, Diamond Earrings in 18K Gold / White</title>
 <price>99999</price>
 <image>Earring1.jpg</image>
+<stock>88</stock>
 <description>Meticulously crafted in 750 Gold, this exclusive design by NATURAL DIAMOND is available to you directly from the source. The 'Violet' design is set with 2 diamonds, weighing 4.01 ctw. Featuring sparkly 2.00ct and 2.01ct main diamonds, graded K / SI2 natural diamond this beautiful piece is available in 14K or 18K gold. If you love the design but prefer a different center stone or would like to have a different design with the same center stone please contact us anytime to receive more options.
 <b>Bold text</b>
 </description>
@@ -115,10 +122,11 @@ A wonderful choice to mark an engagement, this style is classic enough to be bea
 </properties>
 </product> 
 
-<product id = "7" category="Rings">
+<product id="7" category="Rings">
 <title>Round Cut, Solitaire Diamond Ring in 18K Gold</title>
 <price>99999</price>
 <image>Ring3.jpg</image>
+<stock>100</stock>
 <description>Meticulously crafted in 750 Gold, this exclusive design by NATURAL DIAMOND is available to you directly from the source. The 'Tritoma' design is set with 107 diamonds, weighing 2.61 ctw. Featuring a sparkly 2.01ct center stone, graded E / VS1 natural diamond this beautiful piece is available in 14K gold, 18K gold or platinum.
 <b>Bold text</b>
 </description>
@@ -130,4 +138,3 @@ A wonderful choice to mark an engagement, this style is classic enough to be bea
 </product>   
  
 </products>
-
