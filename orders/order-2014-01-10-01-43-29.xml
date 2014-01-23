@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<order><products><product id="3"><quantity>2</quantity></product><product id="1"><quantity>1</quantity></product></products><customer><first-name>Peter</first-name><last-name>Peter</last-name><street-name>Peterstra&#xDF;e</street-name><street-number>12</street-number><city>St. Petersburg</city><zip>12345</zip><lang>en-GB</lang><email>peter@peter.pe</email></customer></order>

@@ -50,6 +50,7 @@ switch($page)
 	case 'terms':		include 'terms.php'; break;
 	case 'sales':		include 'sales.php'; break;
 	case 'copyright':	include 'copyright.php'; break;
+	case 'language':	include 'language.php'; break;
 }
 ?>
 	<!-- end .content --></div>
@@ -58,7 +59,7 @@ switch($page)
     	<li><a href="?page=terms">Terms</a></li>
         <li><a href="?page=copyright">Copyright</a></li>
         <li><a href="?page=contact">Contact</a></li>
-        <li><a href="#">Language</a></li>     
+        <li><a href="?page=language">Language</a></li>     
     </ul>
     <!-- end .footer --></div>
   <!-- end .container --></div>

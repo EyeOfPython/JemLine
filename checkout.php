@@ -16,8 +16,9 @@ foreach($products_db as $product)
 	}
 }
 echo '<div class="checkout">';
+echo '<div><small>Cart > Checkout > Order complete</small></div>';
 echo '<h2>Thank you for ordering stuff!</h2>';
-echo 'An e-mail was sent to you. Please pay us '.to_price($sum).' asap.';
+echo 'An e-mail was sent to you. Please pay us '.to_price($sum+10).' as soon as possible.';
 echo '</div>';
 
 $xml = new SimpleXMLElement("<order></order>");
@@ -99,6 +100,7 @@ function check_elements()
 </script>
 
 <div class="checkout">
+<div><small>Cart > Checkout</small></div>
 <h2>Checkout</h2>
 <form action="?page=checkout" method="post" name="checkout" onsubmit="return check_elements();" >
 <table>

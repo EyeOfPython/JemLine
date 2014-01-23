@@ -1,4 +1,5 @@
 <div class="contact">
+	<h1>Contact</h1>
     <ul class = "head">
         <li>Head Office:</li>
         <li>25 Goldings Lane,</li>
