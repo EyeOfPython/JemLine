@@ -14,7 +14,7 @@ $products = simplexml_load_file("db/products.xml");
 foreach($categories as $category)
 {
 	$category_name = $category.'';
-	if($category_name = $_GET['category'])
+	if($category_name == $_GET['category'])
 	{
 		echo '<h1>'.$category_name.'</h1>';
 		
